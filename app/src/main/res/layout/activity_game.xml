@@ -58,14 +58,14 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_below="@+id/game_LinLay_scores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/game_LinLay_scores"
         android:layout_centerInParent="true"
         android:layout_marginTop="40dp"
         android:orientation="vertical">
 
-        <View style="@style/HorizontalDivider"/>
+        <View style="@style/HorizontalDivider" />
 
 
         <LinearLayout
@@ -115,7 +115,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square3"
@@ -124,7 +124,7 @@
                 android:padding="7dp"
                 android:tag="3" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square4"
@@ -133,7 +133,7 @@
                 android:padding="7dp"
                 android:tag="4" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square5"
@@ -142,7 +142,7 @@
                 android:padding="7dp"
                 android:tag="5" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
         </LinearLayout>
 
         <View style="@style/HorizontalDivider" />
@@ -154,7 +154,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square6"
@@ -163,7 +163,7 @@
                 android:padding="7dp"
                 android:tag="6" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square7"
@@ -171,7 +171,8 @@
                 android:layout_height="80dp"
                 android:padding="7dp"
                 android:tag="7" />
-            <View style="@style/VerticalDivider"/>
+
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square8"
@@ -179,7 +180,8 @@
                 android:layout_height="80dp"
                 android:padding="7dp"
                 android:tag="8" />
-            <View style="@style/VerticalDivider"/>
+
+            <View style="@style/VerticalDivider" />
         </LinearLayout>
 
         <View style="@style/HorizontalDivider" />
@@ -191,7 +193,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square9"
@@ -199,7 +201,8 @@
                 android:layout_height="80dp"
                 android:padding="7dp"
                 android:tag="9" />
-            <View style="@style/VerticalDivider"/>
+
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square10"
@@ -208,7 +211,7 @@
                 android:padding="7dp"
                 android:tag="10" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square11"
@@ -216,7 +219,8 @@
                 android:layout_height="80dp"
                 android:padding="7dp"
                 android:tag="11" />
-            <View style="@style/VerticalDivider"/>
+
+            <View style="@style/VerticalDivider" />
         </LinearLayout>
 
         <View style="@style/HorizontalDivider" />
@@ -228,7 +232,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square12"
@@ -237,7 +241,7 @@
                 android:padding="7dp"
                 android:tag="12" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square13"
@@ -246,7 +250,7 @@
                 android:padding="7dp"
                 android:tag="13" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
             <ImageView
                 android:id="@+id/game_IMG_square14"
@@ -255,11 +259,11 @@
                 android:padding="7dp"
                 android:tag="14" />
 
-            <View style="@style/VerticalDivider"/>
+            <View style="@style/VerticalDivider" />
 
         </LinearLayout>
 
-        <View style="@style/HorizontalDivider"/>
+        <View style="@style/HorizontalDivider" />
 
     </LinearLayout>
 

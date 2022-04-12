@@ -33,7 +33,6 @@ public class Activity_Game extends AppCompatActivity {
     private Handler handler = new Handler();
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +44,11 @@ public class Activity_Game extends AppCompatActivity {
 
     }
 
+
+    /*
+    call it on OnResume
+    call to update the score , move each character and check game's status
+     */
     private void changeByTimer() {
         timer = new Timer();
         timerTask = new TimerTask() {
@@ -62,6 +66,7 @@ public class Activity_Game extends AppCompatActivity {
         timer.schedule(timerTask, 0, 1000);
     }
 
+    //check if hunter got bear && if bear is dead and game is over
     private void checkGame(){
         if (gameManager.getCurrentVillainPlace() == gameManager.getCurrentPlayerPlace()) { //villain on player
             clearCharacter();
@@ -70,15 +75,17 @@ public class Activity_Game extends AppCompatActivity {
         }
 
         if (gameManager.isDead()) {
-            Toast.makeText(this, "Loser", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Game Over! Goodbye", Toast.LENGTH_LONG).show();
             finishGame();
             return;
         }
 
     }
 
+
     private void finishGame() {finish();}
 
+    //find all the views of the program
     private void findViews(){
         game_IMG_hearts = new ImageView[]{
                 findViewById(R.id.game_IMG_heart1),
@@ -115,6 +122,7 @@ public class Activity_Game extends AppCompatActivity {
     2 - right
     3 - down
      */
+    //create listener to buttons
     private void createPlayerListener(){
         game_BTN_up.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -145,12 +153,14 @@ public class Activity_Game extends AppCompatActivity {
         });
     }
 
+    //change player direction by pressing buttons
     private void movePlayerClick(){
         game_IMG_squares[gameManager.getCurrentPlayerPlace()].setImageResource(0);
         gameManager.setCurrentPlayerPlace();
         placeCharacter("player");
     }
 
+    //change villain direction each second
     private void moveVillainTimer(){
         int randomDirection = (int) ((Math.random() * (4 - 0)) + 0);
         game_IMG_squares[gameManager.getCurrentVillainPlace()].setImageResource(0);
@@ -158,6 +168,7 @@ public class Activity_Game extends AppCompatActivity {
         placeCharacter("villain");
     }
 
+    //update score +1 each second
     private void updateScoreByTime(){
         gameManager.setScore();
         game_LBL_score.setText(String.valueOf(gameManager.getScore()));
@@ -167,13 +178,14 @@ public class Activity_Game extends AppCompatActivity {
         }
     }
 
+    //clear the character on board from previous place
     public void clearCharacter(){
         game_IMG_squares[gameManager.getCurrentPlayerPlace()].setImageResource(0);
         game_IMG_squares[gameManager.getCurrentVillainPlace()].setImageResource(0);
     }
 
 
-
+    //place the character on board to new place
     private void placeCharacter(String Character){
         if(Character.equals("player")){
             String PlayerName = "ic_polarbear" + gameManager.getCurrentPlayerDirection();
@@ -187,12 +199,15 @@ public class Activity_Game extends AppCompatActivity {
        }
     }
 
+
+    //activate the timer actions
     @Override
     protected void onResume() {
         super.onResume();
         changeByTimer();
     }
 
+    //stop the timer
     @Override
     protected void onPause() {
         super.onPause();
