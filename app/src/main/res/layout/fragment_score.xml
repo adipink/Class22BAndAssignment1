@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/score_LinLay_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/score_BTN_winner9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="#A5A5A5"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

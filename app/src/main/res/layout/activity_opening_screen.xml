@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_openbackground"
+    tools:context=".activities.Activity_OpeningScreen">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/open_BTN_exit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:icon="@drawable/ic_exit"
+        android:backgroundTint="#002E7A"
+        app:iconTint="#EFF5FF"
+        app:iconSize="50dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/open_LBL_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="Hunter Game"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="italic|bold">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/open_BTN_startPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:backgroundTint="#8C9EFF"
+                android:text="enter game">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/open_EDT_playerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="65dp"
+                    android:hint="enter your name"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp"
+                    android:visibility="invisible">
+
+                </EditText>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/open_BTN_enterName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#8C9EFF"
+                    android:text="enter"
+                    android:visibility="invisible">
+
+                </com.google.android.material.button.MaterialButton>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/open_BTN_startButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#8C9EFF"
+            android:text="start game - buttons"
+            android:visibility="invisible">
+
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/open_BTN_startSensors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#8C9EFF"
+            android:text="start game - sensors"
+            android:visibility="invisible">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/open_BTN_topTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:backgroundTint="#8C9EFF"
+            android:text="high score - top 10"
+            android:visibility="invisible">
+
+        </com.google.android.material.button.MaterialButton>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

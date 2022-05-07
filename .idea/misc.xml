@@ -6,7 +6,17 @@
         <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.228" />
         <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.228" />
         <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_game.xml" value="0.264" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_game_buttons.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_game_sensors.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_map.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_opening_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/activity_records.xml" value="0.24087591240875914" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/fragment__map.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/fragment__score.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/fragment_map.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/fragment_score.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Adi/Desktop/thirdYear/SemesterB/Cellular/Class22BAndAssignment1/app/src/main/res/layout/map_fragment.xml" value="0.25181159420289856" />
       </map>
     </option>
   </component>
